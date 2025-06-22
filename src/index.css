@@ -16,35 +16,35 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 258 59% 36%;
+    --primary: 242 91% 28%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 258 20% 95%;
-    --secondary-foreground: 258 59% 36%;
+    --secondary: 209 100% 90%;
+    --secondary-foreground: 242 91% 28%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 258 20% 95%;
-    --accent-foreground: 258 59% 36%;
+    --accent: 209 100% 90%;
+    --accent-foreground: 242 91% 28%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 258 59% 36%;
+    --ring: 242 91% 28%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 258 59% 36%;
+    --sidebar-primary: 242 91% 28%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 258 20% 95%;
-    --sidebar-accent-foreground: 258 59% 36%;
+    --sidebar-accent: 209 100% 90%;
+    --sidebar-accent-foreground: 242 91% 28%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 258 59% 36%;
+    --sidebar-ring: 242 91% 28%;
   }
 
   .dark {
@@ -57,7 +57,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 258 59% 50%;
+    --primary: 242 91% 50%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -77,12 +77,12 @@
     --ring: 212.7 26.8% 83.9%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 258 59% 50%;
+    --sidebar-primary: 242 91% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 258 59% 50%;
+    --sidebar-ring: 242 91% 50%;
   }
 }
 
@@ -96,19 +96,35 @@
   }
 }
 
-/* Custom veterinary colors */
-.vet-primary {
-  background-color: #393285;
+/* Custom CTvets brand colors */
+.ctvets-primary {
+  background-color: #0D0C82;
 }
 
-.vet-primary-text {
-  color: #393285;
+.ctvets-primary-text {
+  color: #0D0C82;
 }
 
-.vet-light {
-  background-color: #f8f7ff;
+.ctvets-pink {
+  background-color: #E25191;
 }
 
-.vet-gradient {
-  background: linear-gradient(135deg, #393285 0%, #5b4ba3 100%);
+.ctvets-pink-text {
+  color: #E25191;
+}
+
+.ctvets-light-blue {
+  background-color: #CCE9FF;
+}
+
+.ctvets-light-blue-text {
+  color: #CCE9FF;
+}
+
+.ctvets-gradient {
+  background: linear-gradient(135deg, #0D0C82 0%, #E25191 100%);
+}
+
+.ctvets-soft-gradient {
+  background: linear-gradient(135deg, #CCE9FF 0%, #f8f9ff 100%);
 }

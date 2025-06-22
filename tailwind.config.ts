@@ -66,16 +66,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				vet: {
-					primary: '#393285',
-					light: '#f8f7ff',
-					purple: {
-						50: '#f8f7ff',
-						100: '#f0eeff',
-						500: '#393285',
-						600: '#2d2668',
-						700: '#241e52'
-					}
+				ctvets: {
+					primary: '#0D0C82',
+					pink: '#E25191',
+					lightBlue: '#CCE9FF',
+					primaryLight: '#1a1a9e',
+					pinkLight: '#f570a8'
 				}
 			},
 			borderRadius: {

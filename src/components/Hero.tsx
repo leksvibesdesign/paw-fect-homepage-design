@@ -4,7 +4,7 @@ import { Heart, Phone, PawPrint, Home } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden ctvets-soft-gradient">
+    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden ctvets-soft-gradient py-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
